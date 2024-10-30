@@ -1,21 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }*/
-  body{
-    font-family: "Roboto", sans-serif;
-    background-color: antiquewhite;
-  }
-  .list{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    padding: 2rem;
-    max-width:auto;
-    align-items: center;
-  }
-  dl dd{
-    margin-bottom:20px;
-  }
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 2rem;
+  max-width: auto;
+  align-items: center;
+  background-color: rgb(228, 189, 189);
+  color: white;
+  position: sticky;
+  top: 10px;
+  z-index: 3;
+}
+dl dd {
+  margin-bottom: 20px;
+}
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 8em;
+  position: absolute;
+  top: 130px;
+  right: 100px;
+}
+.hero {
+  padding: 8rem;
+  border: 2px solid rgb(157, 109, 109);
+  border-radius: 4rem;
+  border-style: groove;
+}
+form {
+  border: 2px solid rgb(157, 109, 109);
+  border-radius: 4rem;
+  align-items: center;
+}
