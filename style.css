@@ -6,10 +6,16 @@
 }*/
   body{
     font-family: "Roboto", sans-serif;
+    background-color: antiquewhite;
   }
-  .navbar{
+  .list{
     display: flex;
-    justify-content: space-between;
-
-
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width:auto;
+    align-items: center;
+  }
+  dl dd{
+    margin-bottom:20px;
   }
